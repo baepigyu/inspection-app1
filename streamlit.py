@@ -4,7 +4,7 @@ from tensorflow import keras
 import numpy as np
 from PIL import Image
 import os
-
+    
 # ── 설정 ──────────────────────────────────────────────
 IMG_SIZE = (224, 224)
 WEIGHTS_PATH = "leather_model.weights.h5"   # 실행 디렉토리 기준 경로
