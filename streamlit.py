@@ -160,4 +160,4 @@ if uploaded:
         </div>
         """, unsafe_allow_html=True)
 
-        st.progress(prob, text=f"불량 확률: {defect_pct:.1f}%")
+        st.progress(prob, text=f"불량확률: {defect_pct:.1f}%")
